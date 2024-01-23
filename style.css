@@ -1,0 +1,35 @@
+
+/* * {
+    overflow: hidden;
+} */
+
+/* @keyframes fadeOutIn {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.toast {
+    position: absolute;
+    display: none;
+    z-index: 999999;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000;
+    border: 1px solid white;
+    backdrop-filter: blur(12px);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    right: 20px;
+    bottom: 50px;
+    animation: fadeOutIn 4s ease-in-out infinite;
+} */

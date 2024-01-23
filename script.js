@@ -38,3 +38,12 @@ function updateTimerDisplay() {
     const timerDisplay = document.getElementById("timer");
     timerDisplay.innerText = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
+
+// function showToast() {
+//     const toast = document.getElementById("customToast");
+//     toast.style.display = "inline-block";
+
+//     setTimeout(() => {
+//         toast.style.display = "none";
+//     }, 4000);
+// }
